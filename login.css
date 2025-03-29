@@ -1,0 +1,86 @@
+h1{
+    padding: 70px 5px 0px 180px ;
+}
+.login-container{
+    border: solid 1px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 2%;
+    margin: 0 auto;
+    background-color: white;
+}
+body {
+        background-image: url(images/background3.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.forget-password a {
+    text-decoration: none; /* Removes underline */
+    color: rgb(185, 8, 185);
+    font-size: 16px;
+    text-decoration: none;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+.divider::before {
+    margin-right: 10px;
+}
+.divider::after {
+    margin-left: 10px;
+}
+.divider span {
+    font-size: 14px;
+    color: black;
+}
+.social-login {
+    border:solid 0.5px #cccccc6c ;
+    padding: 0px 0px 0px 110px;
+    display: flex;
+    gap: 20px;
+}
+.social-login .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+.social-login a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+    margin: 10px;
+}
+.login-link {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+color: #666;
+}
+.login-link a {
+color: rgb(168, 8, 168);
+text-decoration: none;
+font-weight: bold;
+}
+.image-container {
+    width: 50%; /* Adjust width as needed */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%; /* Ensures the image fits within its container */
+    height: auto;
+    border-radius: 10px; /* Optional - adds rounded corners */
+}
